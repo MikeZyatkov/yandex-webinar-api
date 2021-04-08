@@ -11,17 +11,18 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     color: #ffffff;
     position: relative;
-    height: 100vh;
+    height: 97vh;
+    padding-left: 16px;
 }
 
 .messages__list {
     height: 900px;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .message {
